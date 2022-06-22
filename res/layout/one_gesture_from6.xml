@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x6601" android:layout_height="UNKNOWN_DATA_0x8401">
+    <ImageView android:id="@+id/image" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x8201" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <TextView android:textSize="12sp" android:textColor="#ff000000" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_image_text" android:paddingTop="15dp" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x8201" />
+</FrameLayout>

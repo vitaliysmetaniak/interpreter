@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/letter_font_size_for_pair" android:textColor="@color/font_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="А" />

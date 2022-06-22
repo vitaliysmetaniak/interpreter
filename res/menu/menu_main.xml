@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/sound_on_" app:id="@+id/action_sound" app:orderInCategory="100" app:title="@string/action_sound" app:showAsAction="ifRoom" />
+    <item app:icon="@drawable/settings_on" app:id="@+id/action_settings" app:orderInCategory="200" app:title="@string/action_settings" app:showAsAction="ifRoom" />
+    <item app:icon="@drawable/ic_action_about" app:id="@+id/action_about" app:orderInCategory="300" app:title="@string/action_about" app:showAsAction="ifRoom" />
+</menu>

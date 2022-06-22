@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" card_view:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="vertical" card_view:background="@color/background_color" card_view:paddingLeft="@dimen/activity_horizontal_margin" card_view:paddingRight="@dimen/activity_horizontal_margin" card_view:clickable="true" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="15.0">
+    <include card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_weight="1.0" layout="@layout/game_info_panel" />
+    <LinearLayout card_view:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="vertical" card_view:background="@color/white_color" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_margin="@dimen/margin_gameLayout" card_view:weightSum="6.0" card_view:layout_weight="14.0"
+        <LinearLayout card_view:background="@color/white_color" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_weight="4.0">
+            <FrameLayout card_view:id="@+id/target" card_view:background="@drawable/background" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:layout_margin="30dp">
+                <ImageView card_view:id="@+id/image" card_view:padding="10dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/a" />
+                <ImageView card_view:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/prompt" card_view:visibility="gone" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:layout_marginBottom="40dp" card_view:src="@drawable/prompt" />
+                <TextView card_view:textSize="15sp" card_view:textColor="#ff000000" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/no_image_text" card_view:paddingTop="60dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout card_view:orientation="vertical" card_view:background="@color/white_color" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_weight="2.0"
+            <LinearLayout card_view:orientation="vertical" card_view:paddingLeft="10dp" card_view:paddingTop="5dp" card_view:paddingRight="10dp" card_view:paddingBottom="5dp" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="2.0" card_view:layout_weight="1.0"
+                <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="3.0" card_view:layout_weight="1.0">
+                    <FrameLayout card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_margin="3dp" card_view:layout_weight="1.0">
+                        <ImageView card_view:id="@+id/l1" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:scaleType="fitXY" />
+                        <ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView card_view:textSize="@dimen/letter_font_size" card_view:textColor="@color/white_color" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/v0" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:text="Р" />
+                    </FrameLayout>
+                    <FrameLayout card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_margin="3dp" card_view:layout_weight="1.0">
+                        <ImageView card_view:id="@+id/l2" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:scaleType="fitXY" />
+                        <ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView card_view:textSize="@dimen/letter_font_size" card_view:textColor="@color/white_color" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/v1" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:text="В" />
+                    </FrameLayout>
+                    <FrameLayout card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_margin="3dp" card_view:layout_weight="1.0">
+                        <ImageView card_view:id="@+id/l3" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:scaleType="fitXY" />
+                        <ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView card_view:textSize="@dimen/letter_font_size" card_view:textColor="@color/white_color" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/v2" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:text="Щ" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="3.0" card_view:layout_weight="1.0">
+                    <FrameLayout card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_margin="3dp" card_view:layout_weight="1.0">
+                        <ImageView card_view:id="@+id/l4" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:scaleType="fitXY" />
+                        <ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView card_view:textSize="@dimen/letter_font_size" card_view:textColor="@color/white_color" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/v3" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:text="Ш" />
+                    </FrameLayout>
+                    <FrameLayout card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_margin="3dp" card_view:layout_weight="1.0">
+                        <ImageView card_view:id="@+id/l5" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:scaleType="fitXY" />
+                        <ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView card_view:textSize="@dimen/letter_font_size" card_view:textColor="@color/white_color" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/v4" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:text="Н" />
+                    </FrameLayout>
+                    <FrameLayout card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_margin="3dp" card_view:layout_weight="1.0">
+                        <ImageView card_view:id="@+id/l6" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:scaleType="fitXY" />
+                        <ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView card_view:textSize="@dimen/letter_font_size" card_view:textColor="@color/white_color" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/v5" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:text="А" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0xf01" card_view:src="@drawable/color_line_image" card_view:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

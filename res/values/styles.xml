@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme1">
+        <item>?unknown_ref: 0</item>
+        <item>@style/Theme.MyAppTheme.ActionBar</item>
+    </style>
+    <style name="Theme.MyAppTheme.ActionBar">
+        <item>@drawable/action_bar</item>
+    </style>
+</resources>

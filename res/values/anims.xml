@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="appear_and_zoom_in1">res/anim/appear_and_zoom_in1.xml</anim>
+    <anim name="fade_and_zoom_out1">res/anim/fade_and_zoom_out1.xml</anim>
+    <anim name="fade_and_zoom_out4">res/anim/fade_and_zoom_out4.xml</anim>
+    <anim name="scale_and_move">res/anim/scale_and_move.xml</anim>
+    <anim name="scale_and_move_little">res/anim/scale_and_move_little.xml</anim>
+    <anim name="shake">res/anim/shake.xml</anim>
+    <anim name="shake_little">res/anim/shake_little.xml</anim>
+</resources>

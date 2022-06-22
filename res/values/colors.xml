@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#ffbcdcb9</color>
+    <color name="background_light_color">#ffeeeeee</color>
+    <color name="black">#ff000000</color>
+    <color name="font_color">#ff003399</color>
+    <color name="frame_of_card_color">#ffbcdcb9</color>
+    <color name="marked_letter">#ffef7f1a</color>
+    <color name="menu_color">#ffdee5e8</color>
+    <color name="progress_blue">#40028299</color>
+    <color name="progress_green">#40298a08</color>
+    <color name="right_green">#ff8cbe2e</color>
+    <color name="spinner_stroke_color">#ffb6b6b4</color>
+    <color name="text_OFF">#ffaaaaaa</color>
+    <color name="text_ON">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_color">#fffefefe</color>
+    <color name="wrong_red">#ffe5175b</color>
+</resources>

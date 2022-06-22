@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" card_view:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="vertical" card_view:background="@color/background_color" card_view:clickable="true" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="15.0">
+    <include card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_weight="1.0" layout="@layout/game_info_panel" />
+    <LinearLayout card_view:orientation="vertical" card_view:background="@color/white_color" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_margin="@dimen/margin_gameLayout" card_view:weightSum="66.0" card_view:layout_weight="14.0">
+        <View card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_weight="3.0" />
+        <LinearLayout card_view:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="horizontal" card_view:id="@+id/gesture_area" card_view:background="@color/white_color" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="10.0" card_view:layout_weight="34.0">
+            <ImageView card_view:id="@+id/image" card_view:background="@drawable/background" card_view:padding="15dp" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:src="@drawable/a" card_view:layout_weight="7.0" />
+        </LinearLayout>
+        <View card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_weight="2.0" />
+        <LinearLayout card_view:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="horizontal" card_view:id="@+id/answer_layout" card_view:background="@color/white_color" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginTop="10dp" card_view:weightSum="10.0" card_view:layout_weight="17.0">
+            <FrameLayout card_view:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="5.0">
+                <ImageView card_view:id="@+id/letter_background" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/l2" card_view:scaleType="fitXY" />
+                <LinearLayout card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="7.0">
+                    <ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView card_view:textSize="500sp" card_view:textColor="@color/white_color" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/letter" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:text="В" card_view:layout_weight="6.0" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <View card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_weight="3.0" />
+        <LinearLayout card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginTop="10dp" card_view:layout_marginBottom="10dp" card_view:weightSum="6.0" card_view:layout_weight="8.0"
+            <LinearLayout card_view:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="horizontal" card_view:padding="3dp" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="7.0" card_view:layout_weight="6.0">
+                <FrameLayout card_view:id="@+id/no" card_view:paddingRight="3dp" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="3.0">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/no" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="5.0">
+                        <ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView card_view:textSize="500sp" card_view:textColor="@color/white_color" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:text="@string/noText" card_view:layout_weight="3.0" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout card_view:id="@+id/yes" card_view:paddingLeft="3dp" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="3.0">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/yes" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="5.0">
+                        <ru.avroraventures.russiansinglanguage.tools.AutoResizeTextView card_view:textSize="500sp" card_view:textColor="@color/white_color" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/yesText" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:text="@string/yesText" card_view:layout_weight="3.0" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0xf01" card_view:src="@drawable/color_line_image" card_view:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>

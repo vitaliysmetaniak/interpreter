@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" card_view:orientation="vertical" card_view:background="@color/background_color" card_view:layout_width="match_parent" card_view:layout_height="match_parent"
+    <LinearLayout card_view:orientation="vertical" card_view:background="@color/white_color" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:layout_margin="@dimen/margin_gameLayout"
+        <LinearLayout card_view:orientation="vertical" card_view:padding="20dp" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="8.0" card_view:layout_weight="1.0"
+            <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginLeft="@dimen/margin_left_right_alphabet_menu" card_view:layout_marginTop="@dimen/margin_top_alphabet_menu" card_view:layout_marginRight="@dimen/margin_left_right_alphabet_menu" card_view:layout_weight="1.0">
+                <FrameLayout card_view:id="@+id/g0" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/g0" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="103.0"
+                        <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="595.0" card_view:layout_weight="98.0">
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="15.0" />
+                            <ru.avroraventures.russiansinglanguage.tools.AnimatingProgressBar card_view:id="@+id/p0" card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:progress="45" card_view:progressDrawable="@drawable/progress" card_view:layout_weight="538.0" style="@*style/Widget.ProgressBar.Horizontal" />
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="42.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginLeft="@dimen/margin_left_right_alphabet_menu" card_view:layout_marginTop="@dimen/margin_top_alphabet_menu" card_view:layout_marginRight="@dimen/margin_left_right_alphabet_menu" card_view:layout_weight="1.0">
+                <FrameLayout card_view:id="@+id/g1" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/g1" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="103.0"
+                        <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="595.0" card_view:layout_weight="98.0">
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="15.0" />
+                            <ru.avroraventures.russiansinglanguage.tools.AnimatingProgressBar card_view:id="@+id/p1" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:progress="75" card_view:progressDrawable="@drawable/progress" style="@*style/Widget.ProgressBar.Horizontal" />
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="42.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginLeft="@dimen/margin_left_right_alphabet_menu" card_view:layout_marginTop="@dimen/margin_top_alphabet_menu" card_view:layout_marginRight="@dimen/margin_left_right_alphabet_menu" card_view:layout_weight="1.0">
+                <FrameLayout card_view:id="@+id/g2" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/g2" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="103.0"
+                        <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="595.0" card_view:layout_weight="98.0">
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="15.0" />
+                            <ru.avroraventures.russiansinglanguage.tools.AnimatingProgressBar card_view:id="@+id/p2" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:progress="75" card_view:progressDrawable="@drawable/progress" style="@*style/Widget.ProgressBar.Horizontal" />
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="42.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginLeft="@dimen/margin_left_right_alphabet_menu" card_view:layout_marginTop="@dimen/margin_top_alphabet_menu" card_view:layout_marginRight="@dimen/margin_left_right_alphabet_menu" card_view:layout_weight="1.0">
+                <FrameLayout card_view:id="@+id/g3" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/g3" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="103.0"
+                        <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="595.0" card_view:layout_weight="98.0">
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="15.0" />
+                            <ru.avroraventures.russiansinglanguage.tools.AnimatingProgressBar card_view:id="@+id/p3" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:progress="75" card_view:progressDrawable="@drawable/progress" style="@*style/Widget.ProgressBar.Horizontal" />
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="42.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginLeft="@dimen/margin_left_right_alphabet_menu" card_view:layout_marginTop="@dimen/margin_top_alphabet_menu" card_view:layout_marginRight="@dimen/margin_left_right_alphabet_menu" card_view:layout_weight="1.0">
+                <FrameLayout card_view:id="@+id/g4" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/g4" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="103.0"
+                        <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="595.0" card_view:layout_weight="98.0">
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="15.0" />
+                            <ru.avroraventures.russiansinglanguage.tools.AnimatingProgressBar card_view:id="@+id/p4" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:progress="85" card_view:progressDrawable="@drawable/progress" style="@*style/Widget.ProgressBar.Horizontal" />
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="42.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginLeft="@dimen/margin_left_right_alphabet_menu" card_view:layout_marginTop="@dimen/margin_top_alphabet_menu" card_view:layout_marginRight="@dimen/margin_left_right_alphabet_menu" card_view:layout_weight="1.0">
+                <FrameLayout card_view:id="@+id/g5" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/g5" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="103.0"
+                        <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="595.0" card_view:layout_weight="98.0">
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="15.0" />
+                            <ru.avroraventures.russiansinglanguage.tools.AnimatingProgressBar card_view:id="@+id/p5" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:progress="47" card_view:progressDrawable="@drawable/progress" style="@*style/Widget.ProgressBar.Horizontal" />
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="42.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginLeft="@dimen/margin_left_right_alphabet_menu" card_view:layout_marginTop="@dimen/margin_top_alphabet_menu" card_view:layout_marginRight="@dimen/margin_left_right_alphabet_menu" card_view:layout_weight="1.0">
+                <FrameLayout card_view:id="@+id/g6" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/g6" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="103.0"
+                        <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="595.0" card_view:layout_weight="98.0">
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="15.0" />
+                            <ru.avroraventures.russiansinglanguage.tools.AnimatingProgressBar card_view:id="@+id/p6" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:progress="35" card_view:progressDrawable="@drawable/progress" style="@*style/Widget.ProgressBar.Horizontal" />
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="42.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:layout_marginLeft="@dimen/margin_left_right_alphabet_menu" card_view:layout_marginTop="@dimen/margin_top_alphabet_menu" card_view:layout_marginRight="@dimen/margin_left_right_alphabet_menu" card_view:layout_weight="1.0">
+                <FrameLayout card_view:id="@+id/g7" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                    <ImageView card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:src="@drawable/g7" card_view:scaleType="fitXY" />
+                    <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:weightSum="103.0"
+                        <LinearLayout card_view:orientation="horizontal" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x1" card_view:weightSum="595.0" card_view:layout_weight="98.0">
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="15.0" />
+                            <ru.avroraventures.russiansinglanguage.tools.AnimatingProgressBar card_view:id="@+id/p7" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:progress="25" card_view:progressDrawable="@drawable/progress" style="@*style/Widget.ProgressBar.Horizontal" />
+                            <View card_view:layout_width="UNKNOWN_DATA_0x1" card_view:layout_height="match_parent" card_view:layout_weight="42.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View card_view:background="#ffeb6320" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x501" />
+    </LinearLayout>
+</LinearLayout>

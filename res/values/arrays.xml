@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="all_letters">
+        <item>а</item>
+        <item>б</item>
+        <item>в</item>
+        <item>г</item>
+        <item>д</item>
+        <item>е</item>
+        <item>ї</item>
+        <item>ж</item>
+        <item>з</item>
+        <item>і</item>
+        <item>й</item>
+        <item>к</item>
+        <item>л</item>
+        <item>м</item>
+        <item>н</item>
+        <item>о</item>
+        <item>п</item>
+        <item>р</item>
+        <item>с</item>
+        <item>т</item>
+        <item>у</item>
+        <item>ф</item>
+        <item>х</item>
+        <item>ц</item>
+        <item>ч</item>
+        <item>ш</item>
+        <item>щ</item>
+        <item>ъ</item>
+        <item>и</item>
+        <item>ь</item>
+        <item>є</item>
+        <item>ю</item>
+        <item>я</item>
+    </array>
+    <array name="all_letters_files">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+    </array>
+    <array name="gamesNames">
+        <item>@string/chooseLetterTitle</item>
+        <item>@string/chooseGestureTitle</item>
+        <item>@string/choosePairTitle</item>
+        <item>@string/ChooseYesNoTitle</item>
+    </array>
+    <array name="group1">
+        <item>А</item>
+        <item>Е</item>
+        <item>Ї</item>
+        <item>С</item>
+        <item>В</item>
+    </array>
+    <array name="group2">
+        <item>О</item>
+        <item>Р</item>
+        <item>Н</item>
+        <item>Ш</item>
+        <item>Щ</item>
+    </array>
+    <array name="group3">
+        <item>К</item>
+        <item>И</item>
+        <item>І</item>
+        <item>Й</item>
+        <item>У</item>
+    </array>
+    <array name="group4">
+        <item>З</item>
+        <item>Д</item>
+        <item>Ц</item>
+        <item>Я</item>
+        <item>Б</item>
+    </array>
+    <array name="group5">
+        <item>Г</item>
+        <item>П</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Т</item>
+    </array>
+    <array name="group6">
+        <item>Ч</item>
+        <item>Ж</item>
+        <item>Ф</item>
+        <item>Ю</item>
+    </array>
+    <array name="group7">
+        <item>Х</item>
+        <item>Є</item>
+        <item>Ь</item>
+        <item>Ъ</item>
+    </array>
+    <array name="group_descriptions">
+        <item>пальцы руки постепенно все более раскрываются</item>
+        <item>пальцы поочередно соединяются</item>
+        <item>кисть руки поднята, прямые пальцы раскрыты</item>
+        <item>кисть руки поднята, прямые пальцы соприкасаются</item>
+        <item>кисть руки опущена, пальцы прямые</item>
+        <item>кисть руки поднята, пальцы выпрямляются кончиками от себя</item>
+        <item>кисть руки поднята, большой и указательный пальцы поочередно выпрямляются</item>
+    </array>
+    <array name="groups">
+        <item>А,Е,Ї,С,В</item>
+        <item>О,Р,Н,Ш,Щ</item>
+        <item>К,И,І,Й,У</item>
+        <item>З,Д,Ц,Я,Б</item>
+        <item>Г,П,Л,М,Т</item>
+        <item>Ч,Ж,Ф,Ю</item>
+        <item>X,Є,Ь,Ъ</item>
+    </array>
+    <array name="speeds">
+        <item>x0.5</item>
+        <item>x1</item>
+        <item>x1.5</item>
+        <item>x2</item>
+    </array>
+    <array name="speedsInt">
+        <item>2000</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>0</item>
+    </array>
+    <array name="statisticsSpinnerEntries">
+        <item>Статистика по группам</item>
+        <item>Статистика по буквам</item>
+        <item>Статистика по играм</item>
+    </array>
+    <array name="statisticsTitles">
+        <item>Группа</item>
+        <item>Буква</item>
+        <item>Игра</item>
+    </array>
+    <array name="voices_menu_items">
+        <item>мужской</item>
+        <item>женский</item>
+        <item>[без озвучки]</item>
+    </array>
+</resources>

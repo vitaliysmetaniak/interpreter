@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="24" android:versionName="1.0.24" package="ru.avroraventures.com.russiansinglanguage" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:theme="@style/AppTheme1" android:label="@string/app_name" android:icon="@mipmap/app_icon" android:name="ru.avroraventures.russiansinglanguage.MyApplication" android:allowBackup="true" android:largeHeap="true">
+        <activity android:label="@string/app_name" android:name="ru.avroraventures.russiansinglanguage.AlphabetMenuActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.avroraventures.russiansinglanguage.AlphabetActivity" android:screenOrientation="portrait" />
+        <activity android:name="ru.avroraventures.russiansinglanguage.games.ChooseLetterOrGestureActivity" android:screenOrientation="portrait" />
+        <activity android:name="ru.avroraventures.russiansinglanguage.games.ChoosePairActivity" android:screenOrientation="portrait" />
+        <activity android:name="ru.avroraventures.russiansinglanguage.games.AchievementsActivity" android:screenOrientation="portrait" />
+        <activity android:name="ru.avroraventures.russiansinglanguage.MainMenuActivity" android:screenOrientation="portrait" />
+        <activity android:name="ru.avroraventures.russiansinglanguage.SettingsActivity" android:screenOrientation="portrait" />
+        <activity android:name="ru.avroraventures.russiansinglanguage.WordPlayerActivity" android:screenOrientation="portrait" />
+        <activity android:name="ru.avroraventures.russiansinglanguage.games.YesNoActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/title_activity_about" android:name="ru.avroraventures.russiansinglanguage.AboutActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/underconstraction" android:name="ru.avroraventures.russiansinglanguage.UnderconstractionActivity" android:screenOrientation="portrait" />
+        <meta-data android:name="io.fabric.ApiKey" android:value="0b835feb6c93b7ab2f411925f7dc9ded959bcc97" />
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" card_view:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="vertical" card_view:background="#ffffffff" card_view:clickable="true" card_view:layout_width="match_parent" card_view:layout_height="match_parent"
+    <LinearLayout card_view:gravity="top|bottom|center_vertical|fill_vertical|center|fill" card_view:orientation="vertical" card_view:id="@+id/main_menu_layout" card_view:layout_width="match_parent" card_view:layout_height="match_parent" card_view:layout_marginTop="20dp" card_view:layout_marginBottom="20dp">
+        <ImageView card_view:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/menu" card_view:layout_width="wrap_content" card_view:layout_height="match_parent" card_view:src="@drawable/m_" />
+    </LinearLayout>
+</LinearLayout>
